@@ -1,0 +1,9 @@
+
+.next
+.verecel
+dist
+node_modules
+*.d.ts
+e2e
+pnpm-lock.yaml
+public

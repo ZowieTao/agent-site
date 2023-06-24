@@ -1,0 +1,39 @@
+{
+  "version": "0.2",
+  "$schema": "https://raw.githubusercontent.com/streetsidesoftware/cspell/main/cspell.schema.json",
+  "dictionaries": [
+    "typescript",
+    "node",
+    "html",
+    "css",
+    "fonts"
+  ],
+  "ignorePaths": [
+    "tsconfig.tsbuildinfo",
+    "pnpm-lock.yaml",
+    "package.json",
+    "src/generated/*",
+    "*.svg",
+    "*.sql"
+  ],
+  "words": [
+    "arbitrum",
+    "browserconfig",
+    "cacheable",
+    "dompurify",
+    "Favycon",
+    "ipfs",
+    "Lngs",
+    "msapplication",
+    "rainbowkit",
+    "sepolia",
+    "taraxa",
+    "trivago"
+  ],
+  "ignoreRegExpList": [
+    "/@servie/",
+    "/[A-Za-z0-9]{46,59}/"
+  ],
+  "ignoreWords": [],
+  "overrides": []
+}
