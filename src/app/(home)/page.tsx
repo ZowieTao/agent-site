@@ -48,7 +48,18 @@ function HomePage() {
 
       {/* bottom grid */}
       <div className={styles.grid}>
-        <a className={styles.card} target="_blank" rel="noopener noreferrer">
+        <a
+          data-testid="Twitter_Agent_Start"
+          className={styles.card}
+          target="_blank"
+          rel="noopener noreferrer"
+          onClick={() => {
+            const pluginInstalled = localStorage.getItem("AI_PLUGIN_INSTALLED")
+            if (!pluginInstalled) {
+              alert("please install extension first")
+            }
+          }}
+        >
           <h2>
             Twitter Agent <span>-&gt;</span>
           </h2>
